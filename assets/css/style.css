@@ -1,0 +1,29 @@
+.ypn-wrapper {
+    margin: 1.5rem 0;
+}
+.ypn-banner {
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+    padding: 10px 14px;
+    font-weight: 600;
+}
+.ypn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.ypn-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    background: #fff;
+}
+.ypn-like-btn {
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid #2271b1;
+    background: #2271b1;
+    color: #fff;
+    border-radius: 4px;
+}
